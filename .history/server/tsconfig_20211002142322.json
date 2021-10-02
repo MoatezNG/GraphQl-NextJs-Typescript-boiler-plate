@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Basic Options */
+    "target": "ES2017",
+    "module": "commonjs",
+    "outDir": "build",
+    "rootDir": "src",
+   
+    "esModuleInterop": false ,
+    "experimentalDecorators": true ,
+    "emitDecoratorMetadata": true ,
+    "strictPropertyInitialization": false,
+  
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true 
+  }
+}

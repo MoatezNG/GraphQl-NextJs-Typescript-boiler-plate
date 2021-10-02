@@ -4,7 +4,8 @@
   "main": "index.ts",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec ts-node src/index.ts"
+    "start": "nodemon --exec ts-node src/index.ts",
+    "lint": "tsc && eslint . --ext .ts --ignore-pattern node_modules/"
   },
   "dependencies": {
     "apollo-server-express": "^3.1.2",

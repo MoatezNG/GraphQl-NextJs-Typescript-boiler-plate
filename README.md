@@ -1,0 +1,1 @@
+# GraphQl-NextJs-Typescript-boiler-plate
